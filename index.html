@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <label id="pts">0</label>
+    <button id="click">Click Me!</button>
+    <button id="upg1">upg1 - 10pts</button>
+</head>
+<body>
+    <script>
+        var points = 0
+        document.getElementById("click").onclick = points += 1
+        document.getElementById("pts").innerHTML = points
+    </script>
+</body>
+</html>
